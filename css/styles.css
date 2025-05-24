@@ -1,0 +1,16 @@
+*, *::before, *::after{
+    box-sizing: border-box;
+    font-family: sans-serif;
+    background-color: aquamarine;
+    color: black;
+    text-align: center;
+    padding: 5px;
+}
+.container{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+h3{
+    margin-left: auto;
+}
